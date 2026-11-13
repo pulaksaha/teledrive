@@ -1,0 +1,42 @@
+{
+  "name": "pulakdrive-web",
+  "private": true,
+  "version": "0.1.0",
+  "description": "PulakDrive React UI — Phase 1 foundation",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint src tests",
+    "format": "prettier --write src tests"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.0.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.3",
+    "eslint": "9.14.0",
+    "@eslint/js": "9.14.0",
+    "typescript-eslint": "8.14.0",
+    "globals": "15.12.0",
+    "prettier": "3.3.3",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vitest": "2.1.5",
+    "jsdom": "25.0.1"
+  },
+  "overrides": {
+    "@babel/core": "7.26.10",
+    "@babel/generator": "7.26.10"
+  }
+}

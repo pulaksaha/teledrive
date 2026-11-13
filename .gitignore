@@ -1,1 +1,43 @@
+# Operating System
 .DS_Store
+Thumbs.db
+
+# Swift / Xcode build artifacts
+.build/
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+DerivedData/
+
+# Python virtual environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist-py/
+htmlcov/
+.coverage
+
+# Node / Web artifacts
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+
+# Editor / IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.swo

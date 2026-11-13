@@ -1,0 +1,8 @@
+# PulakDrive Python Service — Core Package
+# Phase 1 Milestone 1: Foundation skeleton
+
+# Runtime dependencies
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.9.2
+
